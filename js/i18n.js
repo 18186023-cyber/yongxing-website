@@ -136,7 +136,7 @@ const i18n = {
     
     en: {
         // Navigation
-        companyName: 'CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY',
+        companyName: 'CHAOZHOU CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY',
         navHome: 'Home',
         navAbout: 'About Us',
         navProducts: 'Products',
@@ -242,7 +242,7 @@ const i18n = {
         contactTitle: 'Contact Us',
         contactSubtitle: 'Looking Forward to Establishing Partnership with You',
         labelCompany: 'Company Name',
-        companyFullName: 'CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY',
+        companyFullName: 'CHAOZHOU CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY',
         labelAddress: 'Factory Address',
         companyAddress: 'Xiqianxi Village, Jiangdong Town, Chaoan District, Chaozhou City, Guangdong Province, China',
         labelPhone: 'Phone',
@@ -287,7 +287,7 @@ function switchLanguage(lang) {
     // 更新页面标题
     document.title = lang === 'zh' 
         ? '永兴服装厂 - 专业服装出口企业 | 中东地区优质供应商'
-        : 'CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY | Professional Garment Export';
+        : 'CHAOZHOU CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY | Professional Garment Export';
 }
 
 // 更新页面文本
