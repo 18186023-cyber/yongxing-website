@@ -136,7 +136,7 @@ const i18n = {
     
     en: {
         // Navigation
-        companyName: 'Yongxing Garment Factory',
+        companyName: 'CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY',
         navHome: 'Home',
         navAbout: 'About Us',
         navProducts: 'Products',
@@ -214,7 +214,7 @@ const i18n = {
         
         // Advantages
         advantagesTitle: 'Why Choose Us',
-        advantagesSubtitle: 'Six Reasons to Choose Yongxing',
+        advantagesSubtitle: 'Six Reasons to Choose YONGXING',
         advTitle1: 'Middle East Market Expertise',
         advDesc1: 'Years of deep cultivation in the Middle East market, thorough understanding of local culture and consumption habits, products better aligned with market demands.',
         advTitle2: 'Quality Assurance',
@@ -242,7 +242,7 @@ const i18n = {
         contactTitle: 'Contact Us',
         contactSubtitle: 'Looking Forward to Establishing Partnership with You',
         labelCompany: 'Company Name',
-        companyFullName: 'Chaoan District Jiangdong Xiqianxi Yongxing Garment Factory',
+        companyFullName: 'CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY',
         labelAddress: 'Factory Address',
         companyAddress: 'Xiqianxi Village, Jiangdong Town, Chaoan District, Chaozhou City, Guangdong Province, China',
         labelPhone: 'Phone',
@@ -257,7 +257,7 @@ const i18n = {
         btnSend: 'Send Inquiry',
         
         // Footer
-        footerSlogan: 'Professional Garment Export Enterprise<br>Serving Middle East Market',
+        footerSlogan: 'Professional Garment Export Enterprise<br>CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY',
         footerLinks: 'Quick Links',
         footerProducts: 'Product Series',
         footerCustom: 'Customization',
@@ -287,7 +287,7 @@ function switchLanguage(lang) {
     // 更新页面标题
     document.title = lang === 'zh' 
         ? '永兴服装厂 - 专业服装出口企业 | 中东地区优质供应商'
-        : 'Yongxing Garment Factory - Professional Garment Export | Middle East Supplier';
+        : 'CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY | Professional Garment Export';
 }
 
 // 更新页面文本
