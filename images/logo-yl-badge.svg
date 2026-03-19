@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5f7a"/>
+      <stop offset="100%" style="stop-color:#57c5b6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 圆形徽章背景 -->
+  <circle cx="100" cy="100" r="85" fill="url(#grad1)"/>
+  <circle cx="100" cy="100" r="75" fill="none" stroke="white" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Y 字母 -->
+  <path d="M55 55 L75 95 L75 140" 
+        stroke="white" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M55 55 L40 75" 
+        stroke="white" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M55 55 L70 75" 
+        stroke="white" stroke-width="14" stroke-linecap="round" fill="none"/>
+  
+  <!-- L 字母 -->
+  <path d="M110 55 L110 140" 
+        stroke="white" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M110 140 L150 140" 
+        stroke="white" stroke-width="14" stroke-linecap="round" fill="none"/>
+  
+  <!-- 服装/纺织元素 - 领口线条 -->
+  <path d="M60 45 Q80 35 100 45" stroke="white" stroke-width="3" fill="none" opacity="0.8"/>
+  
+  <!-- 底部弧线装饰 -->
+  <path d="M55 150 Q100 165 145 150" stroke="#f4d03f" stroke-width="2" fill="none"/>
+  
+  <!-- 文字部分 -->
+  <text x="100" y="205" text-anchor="middle" fill="#1a5f7a" font-family="Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="4">YONGXING</text>
+</svg>

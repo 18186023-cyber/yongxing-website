@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="潮州市潮安区江东西前溪永兴服装厂，专业服装出口企业，专注中东市场，产品远销沙特阿拉伯、阿联酋、卡塔尔等国家。">
+    <meta name="keywords" content="永兴服装厂,服装出口,中东市场,阿拉伯服装,睡衣,长袍">
+    <meta name="author" content="永兴服装厂">
+    <meta property="og:title" content="永兴服装厂 - 专业服装出口企业">
+    <meta property="og:description" content="专注中东市场，品质值得信赖">
+    <meta property="og:image" content="images/网站主页.jpg">
+    <title>永兴服装厂 - 专业服装出口企业 | 中东地区优质供应商</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo-yl.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 页面加载动画 -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-logo">Y&L</div>
+        </div>
+    </div>
+
+    <!-- 语言切换 -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="zh">中文</button>
+        <button class="lang-btn" data-lang="en">English</button>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo-yl.svg" alt="YL Logo" class="logo-icon">
+                <span data-i18n="companyName">永兴服装厂</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active" data-i18n="navHome">首页</a></li>
+                <li><a href="#about" data-i18n="navAbout">关于我们</a></li>
+                <li><a href="#products" data-i18n="navProducts">产品中心</a></li>
+                <li><a href="#advantages" data-i18n="navAdvantages">企业优势</a></li>
+                <li><a href="#contact" data-i18n="navContact">联系我们</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-label" data-i18n="statYears">年行业经验：</span>
+                <span class="stat-number">30+</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label" data-i18n="statClients">中东合作客户：</span>
+                <span class="stat-number">50+</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label" data-i18n="statExports">年出口件数：</span>
+                <span class="stat-number">200万+</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ABOUT US</span>
+                <h2 data-i18n="aboutTitle">关于永兴</h2>
+                <p data-i18n="aboutSubtitle">专业服装制造与出口，服务中东市场</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-i18n="aboutHeading">专注中东市场的服装出口专家</h3>
+                    <p data-i18n="aboutText1">潮州市潮安区江东西前溪永兴服装厂位于中国广东省潮州市，是一家专业从事服装生产与出口的企业。我们深耕中东市场多年，深入了解当地消费者的需求与偏好，为客户提供符合中东市场特点的优质服装产品。</p>
+                    <p data-i18n="aboutText2">我们拥有完善的生产设备、专业的技术团队和严格的质量管理体系，从面料采购到成品出货，每个环节都严格把控，确保产品质量稳定可靠。</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="featureEquipment">现代化生产设备</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="featureQuality">严格质量管控</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="featureDelivery">快速交货周期</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="featureCustom">定制化服务</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/生产车间.jpg" alt="生产车间" data-i18n-alt="altWorkshop">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品中心 -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PRODUCTS</span>
+                <h2 data-i18n="productsTitle">产品中心</h2>
+                <p data-i18n="productsSubtitle">多样化产品线，满足中东市场需求</p>
+            </div>
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all" data-i18n="catAll">全部产品</button>
+                <button class="category-btn" data-category="men" data-i18n="catMen">男装系列</button>
+                <button class="category-btn" data-category="women" data-i18n="catWomen">女装系列</button>
+                <button class="category-btn" data-category="children" data-i18n="catChildren">童装系列</button>
+            </div>
+            <div class="products-grid">
+                <!-- 女士印花睡衣系列 -->
+                <div class="product-card" data-category="women">
+                    <div class="product-image">
+                        <img src="images/女士印花睡衣.jpg" alt="女士印花睡衣" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodWomenPajamas1">女士印花睡衣</h4>
+                        <p data-i18n="prodWomenPajamas1Desc">柔软舒适，优雅印花设计</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="women">
+                    <div class="product-image">
+                        <img src="images/女士印花睡衣 (2).jpg" alt="女士印花睡衣-款式2" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodWomenPajamas2">女士印花睡衣 - 款式2</h4>
+                        <p data-i18n="prodWomenPajamas2Desc">多色可选，居家首选</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="women">
+                    <div class="product-image">
+                        <img src="images/女士印花睡衣 (3).jpg" alt="女士印花睡衣-款式3" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodWomenPajamas3">女士印花睡衣 - 款式3</h4>
+                        <p data-i18n="prodWomenPajamas3Desc">透气面料，四季皆宜</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="women">
+                    <div class="product-image">
+                        <img src="images/女士印花睡衣 (4).jpg" alt="女士印花睡衣-款式4" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodWomenPajamas4">女士印花睡衣 - 款式4</h4>
+                        <p data-i18n="prodWomenPajamas4Desc">精致做工，品质保证</p>
+                    </div>
+                </div>
+
+                <!-- 阿拉伯长袍系列 -->
+                <div class="product-card" data-category="men">
+                    <div class="product-image">
+                        <img src="images/阿拉伯长袍.jpg" alt="阿拉伯长袍" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodRobe1">阿拉伯长袍</h4>
+                        <p data-i18n="prodRobe1Desc">传统设计，优质面料</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="men">
+                    <div class="product-image">
+                        <img src="images/阿拉伯长袍 (2).jpg" alt="阿拉伯长袍-款式2" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodRobe2">阿拉伯长袍 - 款式2</h4>
+                        <p data-i18n="prodRobe2Desc">经典白色，透气舒适</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="men">
+                    <div class="product-image">
+                        <img src="images/阿拉伯长袍 (3).jpg" alt="阿拉伯长袍-款式3" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodRobe3">阿拉伯长袍 - 款式3</h4>
+                        <p data-i18n="prodRobe3Desc">精美刺绣，品质保证</p>
+                    </div>
+                </div>
+                <!-- 阿富汗长裤系列 -->
+                <div class="product-card" data-category="men">
+                    <div class="product-image">
+                        <img src="images/阿富汗长裤.jpg" alt="阿富汗长裤" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodPants1">阿富汗长裤</h4>
+                        <p data-i18n="prodPants1Desc">宽松版型，舒适透气</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="men">
+                    <div class="product-image">
+                        <img src="images/阿富汗长裤 (2).jpg" alt="阿富汗长裤-款式2" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodPants2">阿富汗长裤 - 款式2</h4>
+                        <p data-i18n="prodPants2Desc">多色可选，耐穿耐洗</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="men">
+                    <div class="product-image">
+                        <img src="images/阿富汗长裤 (3).jpg" alt="阿富汗长裤-款式3" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodPants3">阿富汗长裤 - 款式3</h4>
+                        <p data-i18n="prodPants3Desc">适合中东气候</p>
+                    </div>
+                </div>
+                <!-- 阿拉伯短裤系列 -->
+                <div class="product-card" data-category="men">
+                    <div class="product-image">
+                        <img src="images/阿拉伯短裤.jpg" alt="阿拉伯短裤" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodShorts1">阿拉伯短裤</h4>
+                        <p data-i18n="prodShorts1Desc">轻便透气，居家休闲</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="men">
+                    <div class="product-image">
+                        <img src="images/阿拉伯短裤 (2).jpg" alt="阿拉伯短裤-款式2" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodShorts2">阿拉伯短裤 - 款式2</h4>
+                        <p data-i18n="prodShorts2Desc">松紧腰设计，穿脱方便</p>
+                    </div>
+                </div>
+                <!-- 内衣套装 -->
+                <div class="product-card" data-category="men">
+                    <div class="product-image">
+                        <img src="images/内衣套装.jpg" alt="内衣套装" loading="lazy">
+                        <div class="product-overlay">
+                            <span data-i18n="viewDetails">查看详情</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 data-i18n="prodUnderwear">内衣套装</h4>
+                        <p data-i18n="prodUnderwearDesc">贴身舒适，品质面料</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 企业优势 -->
+    <section id="advantages" class="advantages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">WHY CHOOSE US</span>
+                <h2 data-i18n="advantagesTitle">企业优势</h2>
+                <p data-i18n="advantagesSubtitle">选择永兴的六大理由</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h4 data-i18n="advTitle1">中东市场专精</h4>
+                    <p data-i18n="advDesc1">多年深耕中东市场，深入了解当地文化与消费习惯，产品更贴合市场需求。</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h4 data-i18n="advTitle2">品质保证</h4>
+                    <p data-i18n="advDesc2">严格的质量管理体系，从原料到成品全程把控，确保每件产品都符合出口标准。</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h4 data-i18n="advTitle3">价格优势</h4>
+                    <p data-i18n="advDesc3">规模化生产，优化供应链管理，为客户提供具有竞争力的价格。</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h4 data-i18n="advTitle4">快速交货</h4>
+                    <p data-i18n="advDesc4">高效的生产流程，灵活的排产计划，确保按时交付，满足客户紧急需求。</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h4 data-i18n="advTitle5">定制服务</h4>
+                    <p data-i18n="advDesc5">支持来样定制、来料加工，根据客户需求提供个性化设计与生产服务。</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h4 data-i18n="advTitle6">专业团队</h4>
+                    <p data-i18n="advDesc6">经验丰富的外贸团队，提供专业的售前咨询和售后服务，沟通无障碍。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 出口数据展示 -->
+    <section class="export-showcase">
+        <div class="container">
+            <div class="export-content">
+                <h3 data-i18n="exportTitle">出口中东 · 品质见证</h3>
+                <p data-i18n="exportDesc">我们的产品已出口至沙特阿拉伯、阿联酋、卡塔尔、科威特、阿曼等多个中东国家，深受当地客户好评。</p>
+                <div class="export-map">
+                    <img src="images/出口地区.jpg" alt="出口地区分布" data-i18n-alt="altExportMap">
+                </div>
+                <div class="export-flags">
+                    <div class="flag-item">
+                        <span class="flag">🇸🇦</span>
+                        <span data-i18n="countrySA">沙特阿拉伯</span>
+                    </div>
+                    <div class="flag-item">
+                        <span class="flag">🇦🇪</span>
+                        <span data-i18n="countryAE">阿联酋</span>
+                    </div>
+                    <div class="flag-item">
+                        <span class="flag">🇶🇦</span>
+                        <span data-i18n="countryQA">卡塔尔</span>
+                    </div>
+                    <div class="flag-item">
+                        <span class="flag">🇰🇼</span>
+                        <span data-i18n="countryKW">科威特</span>
+                    </div>
+                    <div class="flag-item">
+                        <span class="flag">🇴🇲</span>
+                        <span data-i18n="countryOM">阿曼</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">CONTACT US</span>
+                <h2 data-i18n="contactTitle">联系我们</h2>
+                <p data-i18n="contactSubtitle">期待与您建立合作关系</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-building"></i>
+                        <div>
+                            <h4 data-i18n="labelCompany">公司名称</h4>
+                            <p data-i18n="companyFullName">潮州市潮安区江东西前溪永兴服装厂</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-i18n="labelAddress">工厂地址</h4>
+                            <p data-i18n="companyAddress">广东省潮州市潮安区江东镇西前溪村</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-i18n="labelPhone">联系电话</h4>
+                            <p>86-768-6126463</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-i18n="labelEmail">电子邮箱</h4>
+                            <p>czyonglin@163.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-weixin"></i>
+                        <div>
+                            <h4 data-i18n="labelWechat">微信</h4>
+                            <p data-i18n="wechatHint">扫描二维码或搜索邮箱添加</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 data-i18n="formTitle">在线咨询</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="您的姓名" data-i18n-placeholder="placeholderName" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="电子邮箱" data-i18n-placeholder="placeholderEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="联系电话" data-i18n-placeholder="placeholderPhone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="咨询内容" data-i18n-placeholder="placeholderMessage" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="btnSend">发送咨询</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="images/logo-yl.svg" alt="YL Logo" class="logo-icon">
+                        <span data-i18n="companyName">永兴服装厂</span>
+                    </div>
+                    <p data-i18n="footerSlogan">专业服装出口企业<br>服务中东市场</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footerLinks">快速链接</h4>
+                    <ul>
+                        <li><a href="#home" data-i18n="navHome">首页</a></li>
+                        <li><a href="#about" data-i18n="navAbout">关于我们</a></li>
+                        <li><a href="#products" data-i18n="navProducts">产品中心</a></li>
+                        <li><a href="#contact" data-i18n="navContact">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-products">
+                    <h4 data-i18n="footerProducts">产品系列</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="catMen">男装系列</a></li>
+                        <li><a href="#" data-i18n="catWomen">女装系列</a></li>
+                        <li><a href="#" data-i18n="catChildren">童装系列</a></li>
+                        <li><a href="#" data-i18n="footerCustom">定制服务</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <span data-i18n="companyFullName">潮州市潮安区江东西前溪永兴服装厂</span> <span data-i18n="footerCopyright">版权所有</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
