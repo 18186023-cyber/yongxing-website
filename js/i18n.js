@@ -36,6 +36,8 @@ const i18n = {
         featureDelivery: '快速交货周期',
         featureCustom: '定制化服务',
         altWorkshop: '生产车间',
+        altWarehouse: '仓储中心',
+        altPacking: '包装车间',
         
         // 产品中心
         productsTitle: '产品中心',
