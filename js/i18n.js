@@ -6,7 +6,7 @@
 const i18n = {
     zh: {
         // 导航
-        companyName: '永兴服装厂',
+        companyName: '潮州市潮安区江东西前溪永兴服装厂',
         navHome: '首页',
         navAbout: '关于我们',
         navProducts: '产品中心',
@@ -286,7 +286,7 @@ function switchLanguage(lang) {
     
     // 更新页面标题
     document.title = lang === 'zh' 
-        ? '永兴服装厂 - 专业服装出口企业 | 中东地区优质供应商'
+        ? '潮州市潮安区江东西前溪永兴服装厂 - 专业服装出口企业 | 中东地区优质供应商'
         : 'CHAOZHOU CHAOAN JIANGDONG XIQIANXI YONGXING GARMENTS FTY | Professional Garment Export';
 }
 
