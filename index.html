@@ -16,6 +16,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- 滚动进度条 -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+    
+    <!-- 返回顶部按钮 -->
+    <button class="back-to-top" id="backToTop" aria-label="返回顶部">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
     <!-- 页面加载动画 -->
     <div class="page-loader" id="pageLoader">
         <div class="loader-content">
@@ -53,20 +61,36 @@
 
     <!-- 首页横幅 -->
     <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <!-- 装饰性几何图形 -->
+        <div class="hero-decoration">
+            <div class="deco-circle deco-1"></div>
+            <div class="deco-circle deco-2"></div>
+            <div class="deco-square deco-3"></div>
+            <div class="deco-circle deco-4"></div>
+        </div>
         <div class="hero-content">
+            <div class="hero-badge" data-i18n="heroBadge">专注中东市场 · 30年行业经验</div>
+            <h1 data-i18n="heroTitle">专业服装出口企业</h1>
+            <p class="hero-subtitle" data-i18n="heroSubtitle">品质铸就信赖 · 服务远销中东</p>
+            <p class="hero-desc" data-i18n="heroDesc">潮州市潮安区江东西前溪永兴服装厂，深耕服装行业多年，产品远销中东各国，以优质面料、精湛工艺赢得客户信赖。</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary" data-i18n="btnViewProducts">查看产品</a>
+                <a href="#contact" class="btn btn-secondary" data-i18n="btnContactUs">联系我们</a>
+            </div>
         </div>
         <div class="hero-stats">
             <div class="stat-item">
-                <span class="stat-label" data-i18n="statYears">年行业经验：</span>
                 <span class="stat-number">30+</span>
+                <span class="stat-label" data-i18n="statYears">年行业经验</span>
             </div>
             <div class="stat-item">
-                <span class="stat-label" data-i18n="statClients">中东合作客户：</span>
                 <span class="stat-number">50+</span>
+                <span class="stat-label" data-i18n="statClients">中东合作客户</span>
             </div>
             <div class="stat-item">
-                <span class="stat-label" data-i18n="statExports">年出口件数：</span>
                 <span class="stat-number">200万+</span>
+                <span class="stat-label" data-i18n="statExports">年出口件数</span>
             </div>
         </div>
     </section>
@@ -455,10 +479,47 @@
                         </div>
                         <button type="submit" class="btn btn-primary" data-i18n="btnSend">发送咨询</button>
                     </form>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <h4>发送成功！</h4>
+                        <p>我们已收到您的咨询，会尽快与您联系。</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- 产品详情弹窗 -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="" alt="" id="modalImg">
+                </div>
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDesc"></p>
+                    <div class="modal-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>优质面料</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>精细做工</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>中东市场优选</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary modal-contact-btn" onclick="closeModal()">立即咨询</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- 页脚 -->
     <footer class="footer">
@@ -488,6 +549,21 @@
                         <li><a href="#" data-i18n="catChildren">童装系列</a></li>
                         <li><a href="#" data-i18n="footerCustom">定制服务</a></li>
                     </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>联系我们</h4>
+                    <div class="social-icons">
+                        <a href="mailto:czyonglin@163.com" class="social-icon" title="邮箱">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="#" class="social-icon wechat-icon" title="微信">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="阿里巴巴">
+                            <i class="fas fa-shopping-bag"></i>
+                        </a>
+                    </div>
+                    <p class="social-desc">扫码关注微信公众号<br>获取最新产品资讯</p>
                 </div>
             </div>
             <div class="footer-bottom">
