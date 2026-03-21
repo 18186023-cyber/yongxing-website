@@ -174,33 +174,23 @@ ul { list-style: none; }
     display: flex; align-items: center;
     padding: 120px 24px 80px;
     overflow: hidden;
-    /* 使用渐变背景，不再依赖图片文字 */
-    background: linear-gradient(
-        135deg,
-        var(--dark-color) 0%,
-        #0a4a6e 30%,
-        var(--primary-color) 60%,
-        var(--secondary-color) 100%
-    );
-    background-attachment: fixed;
 }
-/* 保留图片作为装饰性背景（降低透明度，避免干扰文字） */
+/* 背景图片完全显示 */
 .hero::before {
     content: '';
     position: absolute; inset: 0;
     background-image: url('../images/网站主页.jpg');
     background-size: cover; background-position: center;
-    opacity: 0.25;
     z-index: 0;
 }
-/* 更强的遮罩层 */
+/* 轻量遮罩层，只为了文字可读 */
 .hero-overlay {
     position: absolute; inset: 0;
     background: linear-gradient(
-        135deg,
-        rgba(0,43,91,0.92) 0%,
-        rgba(10,74,110,0.88) 50%,
-        rgba(0,43,91,0.92) 100%
+        to right,
+        rgba(0,43,91,0.5) 0%,
+        rgba(0,43,91,0.25) 50%,
+        rgba(0,43,91,0.1) 100%
     );
     z-index: 1;
 }
@@ -257,29 +247,32 @@ ul { list-style: none; }
 }
 .hero-badge {
     display: inline-block;
-    background: rgba(212,175,55,0.18);
-    border: 1px solid rgba(212,175,55,0.5);
+    background: rgba(0,43,91,0.7);
+    border: 1px solid rgba(212,175,55,0.8);
     color: var(--gold-color);
     font-size: 0.85rem; font-weight: 600;
     letter-spacing: 1px;
     padding: 7px 20px; border-radius: 30px;
     margin-bottom: 22px;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(10px);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 .hero h1 {
     font-size: 3.6rem; font-weight: 800;
     color: white; line-height: 1.2;
     margin-bottom: 18px;
-    text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6), 0 0 40px rgba(0,0,0,0.4);
 }
 .hero-subtitle {
     font-size: 1.35rem; color: var(--gold-light);
     margin-bottom: 18px; font-weight: 500;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 .hero-desc {
-    font-size: 1rem; color: rgba(255,255,255,0.82);
+    font-size: 1rem; color: rgba(255,255,255,0.9);
     line-height: 1.9; margin-bottom: 36px;
     max-width: 560px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 .hero-buttons {
     display: flex; gap: 16px; flex-wrap: wrap;
@@ -291,16 +284,10 @@ ul { list-style: none; }
     transform: translateY(-50%);
     z-index: 2;
     display: flex; flex-direction: column; gap: 16px;
-    /* 更大的屏幕才显示 */
-    display: none;
-}
-/* 桌面端显示统计卡片 */
-@media (min-width: 1200px) {
-    .hero-stats { display: flex; }
 }
 .stat-item {
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(212,175,55,0.35);
+    background: rgba(0,43,91,0.75);
+    border: 1px solid rgba(212,175,55,0.6);
     backdrop-filter: blur(12px);
     border-radius: var(--radius);
     padding: 20px 32px;
@@ -309,7 +296,7 @@ ul { list-style: none; }
     transition: var(--transition);
 }
 .stat-item:hover {
-    background: rgba(212,175,55,0.15);
+    background: rgba(0,43,91,0.9);
     border-color: var(--gold-color);
     transform: translateX(-4px);
 }
