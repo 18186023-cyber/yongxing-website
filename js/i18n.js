@@ -14,8 +14,9 @@ const i18n = {
         navContact: '联系我们',
         
         // 首页横幅
+        heroBadge: '专注中东市场 · 30年行业经验',
         heroTitle: '专业服装出口企业',
-        heroSubtitle: '专注中东市场 · 品质值得信赖',
+        heroSubtitle: '品质铸就信赖 · 服务远销中东',
         heroDesc: '潮州市潮安区江东西前溪永兴服装厂，深耕服装行业多年，产品远销中东各国，以优质面料、精湛工艺赢得客户信赖。',
         btnViewProducts: '查看产品',
         btnContactUs: '联系我们',
@@ -57,6 +58,8 @@ const i18n = {
         prodWomenPajamas3Desc: '透气面料，四季皆宜',
         prodWomenPajamas4: '女士印花睡衣 - 款式4',
         prodWomenPajamas4Desc: '精致做工，品质保证',
+        prodWomenPajamas5: '女士印花睡衣 - 款式5',
+        prodWomenPajamas5Desc: '时尚印花，舒适贴身',
 
         // 产品详情 - 阿拉伯长袍
         prodRobe1: '阿拉伯长袍',
@@ -74,11 +77,21 @@ const i18n = {
         prodPants3: '阿富汗长裤 - 款式3',
         prodPants3Desc: '适合中东气候',
 
+        // 产品详情 - 阿拉伯长裤
+        prodArabPants1: '阿拉伯长裤',
+        prodArabPants1Desc: '宽松舒适，中东热销',
+        prodArabPants2: '阿拉伯长裤 - 款式2',
+        prodArabPants2Desc: '优质面料，穿着舒适',
+        prodArabPants3: '阿拉伯长裤 - 款式3',
+        prodArabPants3Desc: '经典款式，品质保证',
+
         // 产品详情 - 阿拉伯短裤
         prodShorts1: '阿拉伯短裤',
         prodShorts1Desc: '轻便透气，居家休闲',
         prodShorts2: '阿拉伯短裤 - 款式2',
         prodShorts2Desc: '松紧腰设计，穿脱方便',
+        prodShorts3: '阿拉伯短裤 - 款式3',
+        prodShorts3Desc: '舒适面料，居家首选',
 
         // 产品详情 - 内衣套装
         prodUnderwear: '内衣套装',
@@ -187,6 +200,8 @@ const i18n = {
         prodWomenPajamas3Desc: 'Breathable fabric, suitable for all seasons',
         prodWomenPajamas4: "Women's Printed Pajamas - Style 4",
         prodWomenPajamas4Desc: 'Exquisite craftsmanship, quality guaranteed',
+        prodWomenPajamas5: "Women's Printed Pajamas - Style 5",
+        prodWomenPajamas5Desc: 'Stylish prints, comfortable fit',
 
         // Product Details - Arabic Robes
         prodRobe1: 'Arabic Thobe',
@@ -204,11 +219,21 @@ const i18n = {
         prodPants3: 'Afghan Pants - Style 3',
         prodPants3Desc: 'Suitable for Middle East climate',
 
+        // Product Details - Arab Pants
+        prodArabPants1: 'Arab Pants',
+        prodArabPants1Desc: 'Loose and comfortable, best seller in Middle East',
+        prodArabPants2: 'Arab Pants - Style 2',
+        prodArabPants2Desc: 'Premium fabric, comfortable to wear',
+        prodArabPants3: 'Arab Pants - Style 3',
+        prodArabPants3Desc: 'Classic style, quality guaranteed',
+
         // Product Details - Arabic Shorts
         prodShorts1: 'Arabic Shorts',
         prodShorts1Desc: 'Lightweight and breathable, perfect for home leisure',
         prodShorts2: 'Arabic Shorts - Style 2',
         prodShorts2Desc: 'Elastic waist design, easy to wear',
+        prodShorts3: 'Arabic Shorts - Style 3',
+        prodShorts3Desc: 'Comfortable fabric, perfect for home',
 
         // Product Details - Underwear Set
         prodUnderwear: 'Underwear Set',
