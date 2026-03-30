@@ -56,6 +56,24 @@ window.addEventListener('scroll', () => {
 });
 
 // =============================================
+// 产品图片角落装饰 - 伊斯兰纹样
+// =============================================
+document.addEventListener('DOMContentLoaded', () => {
+    const productImages = document.querySelectorAll('.product-image');
+    productImages.forEach(img => {
+        // 添加左下角装饰
+        const cornerBL = document.createElement('div');
+        cornerBL.className = 'corner-bottom-left';
+        img.appendChild(cornerBL);
+        
+        // 添加右下角装饰
+        const cornerBR = document.createElement('div');
+        cornerBR.className = 'corner-bottom-right';
+        img.appendChild(cornerBR);
+    });
+});
+
+// =============================================
 // 产品分类筛选
 // =============================================
 const categoryBtns = document.querySelectorAll('.category-btn');
