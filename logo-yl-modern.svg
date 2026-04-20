@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <!-- 主渐变 -->
+    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5f7a"/>
+      <stop offset="50%" style="stop-color:#159895"/>
+      <stop offset="100%" style="stop-color:#57c5b6"/>
+    </linearGradient>
+    <!-- 金色点缀 -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4d03f"/>
+      <stop offset="100%" style="stop-color:#d4ac0d"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 六边形背景 - 象征稳定与专业 -->
+  <polygon points="100,10 180,55 180,145 100,190 20,145 20,55" 
+           fill="url(#mainGrad)"/>
+  
+  <!-- YL 字母组合 - 现代风格 -->
+  <g fill="white">
+    <!-- Y -->
+    <path d="M60 60 L80 100 L80 140 L90 140 L90 100 L110 60 L100 60 L85 90 L70 60 Z"/>
+    <!-- L -->
+    <path d="M115 60 L115 140 L155 140 L155 130 L125 130 L125 60 Z"/>
+  </g>
+  
+  <!-- 装饰线条 - 象征纺织经纬 -->
+  <line x1="45" y1="155" x2="155" y2="155" stroke="#f4d03f" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="162" x2="150" y2="162" stroke="#57c5b6" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>

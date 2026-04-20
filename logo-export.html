@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+.logo-container {
+    text-align: center;
+}
+.logo-box {
+    background: linear-gradient(135deg, #002B5B 0%, #1a5f7a 100%);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    box-shadow: 0 20px 60px rgba(0,43,91,0.4);
+    position: relative;
+}
+.logo-box::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 3px solid rgba(255,215,0,0.6);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.yl {
+    font-family: Arial, sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: #FFD700;
+    letter-spacing: 8px;
+    position: relative;
+    z-index: 1;
+}
+.subtitle {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #FFD700;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+</style>
+</head>
+<body>
+<div class="logo-container">
+    <div class="logo-box">
+        <div class="yl">Y&amp;L</div>
+    </div>
+    <div class="subtitle">YONGXING</div>
+</div>
+</body>
+</html>
