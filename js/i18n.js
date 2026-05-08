@@ -92,6 +92,12 @@ const i18n = {
         prodShorts2Desc: '松紧腰设计，穿脱方便',
         prodShorts3: '阿拉伯短裤 - 款式3',
         prodShorts3Desc: '舒适面料，居家首选',
+        prodCapriPants1: '阿拉伯7分裤',
+        prodCapriPants1Desc: '七分设计，凉爽透气',
+        prodArabPants4: '阿拉伯长裤 - 款式4',
+        prodArabPants4Desc: '新款面料，时尚百搭',
+        prodArabPants5: '阿拉伯长裤 - 款式5',
+        prodArabPants5Desc: '精工细作，出口品质',
 
         // 产品详情 - 内衣套装
         prodUnderwear: '内衣套装',
@@ -234,6 +240,12 @@ const i18n = {
         prodShorts2Desc: 'Elastic waist design, easy to wear',
         prodShorts3: 'Arabic Shorts - Style 3',
         prodShorts3Desc: 'Comfortable fabric, perfect for home',
+        prodCapriPants1: 'Arabic Capri Pants',
+        prodCapriPants1Desc: 'Knee-length design, cool and breathable',
+        prodArabPants4: 'Arabic Pants - Style 4',
+        prodArabPants4Desc: 'New fabric, stylish and versatile',
+        prodArabPants5: 'Arabic Pants - Style 5',
+        prodArabPants5Desc: 'Fine craftsmanship, export quality',
 
         // Product Details - Underwear Set
         prodUnderwear: 'Underwear Set',
