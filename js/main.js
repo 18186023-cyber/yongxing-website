@@ -194,6 +194,10 @@ if (contactForm) {
 // =============================================
 // 页面加载完成后隐藏加载动画
 // =============================================
+// 动态设置页脚年份
+const footerYear = document.getElementById('footer-year');
+if (footerYear) footerYear.textContent = new Date().getFullYear();
+
 window.addEventListener('load', () => {
     setTimeout(() => {
         const pageLoader = document.getElementById('pageLoader');
